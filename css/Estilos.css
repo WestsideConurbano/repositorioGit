@@ -1,0 +1,159 @@
+* { margin: 0;
+padding:0;
+box-sizing: border-box;}
+ 
+
+h1 {
+    background-image: url("../assets/Mushroom-Management-Article-Banner.jpg ");
+    background-position: center;
+    height: 120px;
+   background-repeat:no-repeat;
+   background-size: cover;
+    
+}
+nav{background-image:url(../assets/Mushroom-Management-Article-Banner.jpg);
+padding-top: 3px;
+padding-bottom: 3px;}
+
+
+nav ul { display: flex;
+    align-items:center ;
+    justify-content:space-around ;
+    font-size: 25px;color:rgb(63, 13, 13) ;
+padding: 0px 5px;}
+    
+    
+    footer {display: flex       ;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        font-family:'Koulen';
+        text-decoration: none;
+        font-weight: 200;
+        font-size: 12px;
+        color: rgba(2, 37, 37, 0.904);}
+ 
+footer p {font-size: 12px;color: rgb(0, 0, 0); }
+footer a {font-size: 12px; color: black;
+text-decoration: none;}
+b {font-size: 12px; color: black;
+    text-decoration: none;}
+li { display:flex;
+margin: 0 10px;}
+
+.autorRe {font-family:'Koulen';
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 12px;
+    color: rgba(2, 37, 37, 0.904);}
+h1 a { display: flex
+    ;
+align-items: center;
+justify-content: space-around;
+padding: 0px 25px ;
+}
+
+.bordesRedondeados {border: 1cm;border-style: dotted;}
+
+.estiloDeltitulo {
+    display: flex;
+    align-items: center;
+    font-family:'Koulen';
+font-weight: 600;
+color: rgba(0, 0, 0, 0.904);}´
+
+
+.estiloDeltituloCultivo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+font-weight: 600;
+color: rgba(78, 25, 92, 0.973);}
+
+
+
+.hero { height: 60vh;
+    background-image:url("../assets/gif\ 3\ large.gif");
+    background-repeat: no-repeat;
+    background-position:;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px;
+
+}
+
+.textoHero {font-family: 'Abel', sans-serif;
+background-color: rgba(169, 96, 228, 0.384);
+
+}
+
+.linksPrincipales {text-decoration: none;
+    color: rgba(37, 2, 18, 0.904);
+    font-family: 'koulen';
+    font-weight: 900;  }
+
+    .imgConteiner img{ display: block;
+    margin:auto;
+   }
+
+   .dad 
+   {margin-top: 14px;
+    display: grid;
+    grid-template-areas: "img title" "image content";
+    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+    width: 300vw 100vw;     
+    height: auto;
+    align-items: center;
+
+ }
+   .Dad { display: flex;
+    align-items: center;
+    justify-content: space-around;
+  padding: 25px;
+
+    ;}
+    article { background-color: rgba(196, 148, 241, 0.795);
+    margin: 1rem;
+padding: 1rem;}
+
+
+.imagen
+{grid-area: img;
+background-color: black;}
+
+.H3hijos { grid-area: title;
+
+} 
+.contenidoArticle { grid-area: content
+    
+    ;
+    font-family: 'Abel', sans-serif; font-size: 5rm  ;
+
+background-color: blueviolet;}
+
+
+.hH3hijos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.imagen { 
+    
+    display: flex;
+    justify-content:space-evenly ;
+align-items:center;}
+
+/*media cueris¨*/
+ 
+@media screen (max-width 400px){.dad {display: grid;
+    grid-template-columns: 1fr;
+    align-items: column;}
+    }
